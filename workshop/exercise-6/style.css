@@ -18,24 +18,45 @@ li {
 
 /* ADD CSS BELOW */
 
-body {
-}
-
-h1,
-h2 {
-}
-
-h1 {
+h1{
+  font-family: 'Bangers', cursive;
+  font-size: 48px;
+  color: black;
+  text-align: center;
+  margin: 20px;
 }
 
 h2 {
+  font-family:'Bangers', cursive;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  margin-bottom: 8px;
+  padding: 5px;
+
 }
+
 
 .row {
+  display:flex;
+  list-style-type:none;
+  justify-content: space-around;
 }
 
 .col {
+  background-color: lightgray;
+  padding: 10px 30px;
+  border-style:dashed;
+  border-width: 2px;
+  border-color: grey;
+  border-radius: 2px;
+
 }
 
 .image {
+  height: 200px;
+  width:200px;
+
 }
+
+
