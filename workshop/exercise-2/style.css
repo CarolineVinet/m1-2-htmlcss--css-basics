@@ -1,11 +1,17 @@
 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .one {
+    background-color: pink;
+    margin-bottom: 0px;
 }
 
 .two {
+    background-color: fuchsia;
+    margin-top: 0px;
 }
 
 .three {
+    font-size: 5em;
 }
